@@ -1,5 +1,5 @@
 # Cool Stuffs mod
-**by [Shadichy](https://github.com/shadichy) and [Công Duy](https://www.facebook.com/profile.php?id=100014836779779) **
+**by [Shadichy](https://github.com/shadichy) and [Công Duy](https://www.facebook.com/profile.php?id=100014836779779)**
 
 -----
 
