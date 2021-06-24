@@ -6,4 +6,5 @@
 ### Jobs to do:
 * Add dinosaurs, dragons and eggs (very big eggs)
 * Add some decorating blocks (bamboo things,..)
-* More weapons!
+* More weapons! (spear,...)
+* Gripes for longer-lasting tools, weapons
