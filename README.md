@@ -8,3 +8,4 @@
 * Add some decorating blocks (bamboo things,..)
 * More weapons! (spear,...)
 * Gripes for longer-lasting tools, weapons
+* Milk bottle, Cacao milk and Chocolate!
