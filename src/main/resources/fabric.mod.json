@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cs",
+  "version": "1.0.0",
+  "name": "Cool Stuffs mod",
+  "authors": [
+    "shadichy, CongDuy2005"
+  ],
+  "contact": {
+    "homepage": "https://github.com/shadichy/csmod",
+    "sources": "https://github.com/ClothCreators/MCreatorFabricGenerator"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nkv.cs.CsMod"
+    ],
+    "client": [
+      "net.nkv.cs.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}

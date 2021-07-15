@@ -4,8 +4,6 @@
 -----
 
 ### Jobs to do:
-* Add dinosaurs, dragons and eggs (very big eggs)
-* Add some decorating blocks (bamboo things,..)
-* More weapons! (spear,...)
-* Gripes for longer-lasting tools, weapons
-* Milk bottle, Cacao milk and Chocolate!
+* Blocks: bamboo fence (dyable),...
+* Items: milk bottle, cacao milk, chocolate, iron gripe tools (made out of iron bar and iron/gold/diamond/netherite), spear,...
+* Mobs: dinosaur, dragon, egg
