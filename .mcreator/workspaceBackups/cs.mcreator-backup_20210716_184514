@@ -1,0 +1,75 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Chocolate",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate"
+    },
+    {
+      "name": "CacaoMilk",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cacao_milk"
+    },
+    {
+      "name": "IronGripedDiamondAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_griped_diamond_axe"
+    },
+    {
+      "name": "IronGripedDiamondHoe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_griped_diamond_hoe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cs.cacao_milk": "Cacao Milk",
+      "item.cs.iron_griped_diamond_axe": "Iron Griped Diamond Axe",
+      "item.cs.iron_griped_diamond_hoe": "Iron Griped Diamond Hoe",
+      "item.cs.chocolate": "Chocolate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cs",
+    "modName": "Cool Stuffs mod",
+    "version": "1.0.0",
+    "author": "shadichy, CongDuy2005",
+    "websiteURL": "https://github.com/shadichy/csmod",
+    "license": "CC0-1.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "LibGui"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "modElementsPackage": "net.nkv.cs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100226215
+}

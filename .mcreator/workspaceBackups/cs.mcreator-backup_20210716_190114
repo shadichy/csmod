@@ -26,7 +26,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iron_griped_diamond_axe"
+      "registry_name": "iron_grip_diamond_axe"
     },
     {
       "name": "IronGripedDiamondHoe",
@@ -108,74 +108,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_griped_golden_sword"
-    },
-    {
-      "name": "IronGripedIronAxe",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_griped_iron_axe"
-    },
-    {
-      "name": "IronGripedIronHoe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_griped_iron_hoe"
-    },
-    {
-      "name": "IronGripedIronPickaxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_griped_iron_pickaxe"
-    },
-    {
-      "name": "IronGripedIronShovel",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_griped_iron_shovel"
-    },
-    {
-      "name": "IronGripedIronSword",
-      "type": "tool",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_griped_iron_sword"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cs.iron_griped_iron_hoe": "Iron hoe (with iron gripe)",
       "item.cs.cacao_milk": "Cacao Milk",
-      "item.cs.iron_griped_diamond_axe": "Diamond xe (with iron gripe)",
-      "item.cs.iron_griped_golden_axe": "Golden axe (with iron gripe)",
-      "item.cs.iron_griped_golden_shovel": "Golden shovel (with iron gripe)",
+      "item.cs.iron_griped_golden_axe": "Iron Griped Golden Axe",
+      "item.cs.iron_griped_golden_shovel": "Iron Griped Golden Shovel",
       "item.cs.chocolate": "Chocolate",
-      "item.cs.iron_griped_iron_sword": "Iron pickaxe (with iron gripe)",
-      "item.cs.iron_griped_iron_pickaxe": "Iron pickaxe (with iron gripe)",
-      "item.cs.iron_griped_diamond_sword": "Diamond sword (with iron gripe)",
-      "item.cs.iron_griped_iron_axe": "Iron axe (with iron gripe)",
-      "item.cs.iron_griped_golden_pickaxe": "Golden pickaxe (with iron gripe)",
-      "item.cs.iron_griped_diamond_hoe": "Diamond hoe (with iron gripe)",
-      "item.cs.iron_griped_golden_sword": "Golden sword (with iron gripe)",
-      "item.cs.iron_griped_diamond_shovel": "Diamond shovel (with iron gripe)",
-      "item.cs.iron_griped_golden_hoe": "Golden hoe (with iron gripe)",
-      "item.cs.iron_griped_diamond_pickaxe": "Diamond pickaxe (with iron gripe)",
-      "item.cs.iron_griped_iron_shovel": "Iron pickaxe (with iron gripe)"
+      "item.cs.iron_griped_diamond_sword": "Iron Griped Diamond Sword",
+      "item.cs.iron_griped_golden_pickaxe": "Iron Griped Golden Pickaxe",
+      "item.cs.iron_griped_diamond_hoe": "Iron Griped Diamond Hoe",
+      "item.cs.iron_griped_golden_sword": "Iron Griped Golden Shovel",
+      "item.cs.iron_griped_diamond_shovel": "Iron Griped Diamond Shovel",
+      "item.cs.iron_griped_golden_hoe": "Iron Griped Golden Hoe",
+      "item.cs.iron_griped_diamond_pickaxe": "Iron Griped Diamond Pickaxe",
+      "item.cs.iron_grip_diamond_axe": "Iron Griped Diamond Axe"
     }
   },
   "foldersRoot": {

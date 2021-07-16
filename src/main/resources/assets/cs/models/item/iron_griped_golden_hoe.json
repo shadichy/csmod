@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cs:items/iron_griped_golden_hoe"
+  }
+}
