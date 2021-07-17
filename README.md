@@ -1,6 +1,6 @@
 # Cool Stuffs mod
 **by [Shadichy](https://github.com/shadichy) and [Công Duy](https://www.facebook.com/profile.php?id=100014836779779)**
-Version fabric 1.16.5
+Version fabric 1.17
 -----
 
 ### Jobs to do:
