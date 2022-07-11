@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "armamod:silver_nugget"
+        }
+    },
+    "result": {
+        "item": "armamod:silver_ingot",
+        "count": 1
+    }
+}

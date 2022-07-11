@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " a ",
+        "aBa",
+        " a "
+    ],
+    "key": {
+        "a": {
+            "item": "armamod:silver_ingot"
+        },
+        "B": {
+            "item": "minecraft:bow"
+        }
+    },
+    "result": {
+        "item": "armamod:silver_bow",
+        "count": 1
+    }
+}

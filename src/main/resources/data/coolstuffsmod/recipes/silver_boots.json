@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a a",
+        "a a"
+    ],
+    "key": {
+        "a": {
+            "item": "armamod:silver_ingot"
+        }
+    },
+    "result": {
+        "item": "armamod:silver_boots",
+        "count": 1
+    }
+}

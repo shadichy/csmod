@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "a a",
+        "a a"
+    ],
+    "key": {
+        "a": {
+            "item": "armamod:silver_ingot"
+        }
+    },
+    "result": {
+        "item": "armamod:silver_leggings",
+        "count": 1
+    }
+}
