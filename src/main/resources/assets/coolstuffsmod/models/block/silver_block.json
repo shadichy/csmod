@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "armamod:block/silver_block"
+    "all": "coolstuffsmod:block/silver_block"
   }
 }

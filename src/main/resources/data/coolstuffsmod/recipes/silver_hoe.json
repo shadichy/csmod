@@ -7,14 +7,14 @@
     ],
     "key": {
         "a": {
-            "item": "armamod:silver_ingot"
+            "item": "coolstuffsmod:silver_ingot"
         },
         "/": {
             "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "armamod:silver_hoe",
+        "item": "coolstuffsmod:silver_hoe",
         "count": 1
     }
 }

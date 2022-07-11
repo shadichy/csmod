@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Cool Stuffs Mod
 
 ## Setup
 
@@ -6,4 +6,10 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This project is licensed under MIT license. Feel free to redistribute it. 
+
+## Todos
+
+1. Finish bamboo doors, trapdoors, fences, gates; making steels
+2. Making milk bottle, cacao milk, chocolate, reinforced tools (made out of iron bar and iron/steel/gold/silver/diamond/netherite), metal bows, spears,...
+3. Mobs: dinosaur, dragon, egg

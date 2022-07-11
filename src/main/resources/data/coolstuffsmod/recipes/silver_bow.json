@@ -7,14 +7,14 @@
     ],
     "key": {
         "a": {
-            "item": "armamod:silver_ingot"
+            "item": "coolstuffsmod:silver_ingot"
         },
         "B": {
             "item": "minecraft:bow"
         }
     },
     "result": {
-        "item": "armamod:silver_bow",
+        "item": "coolstuffsmod:silver_bow",
         "count": 1
     }
 }

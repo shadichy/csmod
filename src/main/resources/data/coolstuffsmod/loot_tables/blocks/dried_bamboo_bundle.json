@@ -7,12 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "coolstuffsmod:bamboo_bundle"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
+          "name": "coolstuffsmod:dried_bamboo_bundle"
         }
       ]
     }

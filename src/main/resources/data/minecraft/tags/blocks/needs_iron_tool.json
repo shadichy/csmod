@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "armamod:silver_block",
-    "armamod:raw_silver_block",
-    "armamod:silver_ore",
-    "armamod:deepslate_silver_ore"
+    "coolstuffsmod:silver_block",
+    "coolstuffsmod:raw_silver_block",
+    "coolstuffsmod:silver_ore",
+    "coolstuffsmod:deepslate_silver_ore"
   ]
 }

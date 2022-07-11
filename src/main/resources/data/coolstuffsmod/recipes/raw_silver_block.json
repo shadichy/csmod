@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "armamod:raw_silver"
+            "item": "coolstuffsmod:raw_silver"
         }
     },
     "result": {
-        "item": "armamod:raw_silver_block",
+        "item": "coolstuffsmod:raw_silver_block",
         "count": 1
     }
 }

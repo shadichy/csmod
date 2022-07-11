@@ -7,11 +7,11 @@
     ],
     "key": {
         "a": {
-            "item": "armamod:silver_nugget"
+            "item": "coolstuffsmod:silver_nugget"
         }
     },
     "result": {
-        "item": "armamod:silver_ingot",
+        "item": "coolstuffsmod:silver_ingot",
         "count": 1
     }
 }

@@ -1,0 +1,27 @@
+{
+  "item.coolstuffsmod.usable_item": "Hàng dùng được",
+  "item.coolstuffsmod.silver_ingot": "Phôi bạc",
+  "item.coolstuffsmod.silver_nugget": "Hạt bạc",
+  "item.coolstuffsmod.raw_silver": "Bạc thô",
+  "item.coolstuffsmod.silver_sword": "Kiếm bạc",
+  "item.coolstuffsmod.silver_axe": "Rìu bạc",
+  "item.coolstuffsmod.silver_pickaxe": "Cuốc chim bạc",
+  "item.coolstuffsmod.silver_shovel": "Xẻng bạc",
+  "item.coolstuffsmod.silver_hoe": "Cuốc bạc",
+  "item.coolstuffsmod.silver_bow": "Cung bạc",
+  "item.coolstuffsmod.silver_helmet": "Mũ bạc",
+  "item.coolstuffsmod.silver_chestplate": "Áo bạc",
+  "item.coolstuffsmod.silver_leggings": "Quần bạc",
+  "item.coolstuffsmod.silver_boots": "Ủng bạc",
+  "item.coolstuffsmod.raw_rice_bowl": "Bát gạo",
+  "item.coolstuffsmod.rice_bowl": "Bát cơm đã chín",
+
+  "block.coolstuffsmod.bamboo_bundle": "Bó tre",
+  "block.coolstuffsmod.dried_bamboo_bundle": "Bó tre khô",
+  "block.coolstuffsmod.dried_bamboo": "Ống tre khô",
+  "block.coolstuffsmod.nether_diamond_ore": "Quặng kim cương nether",
+  "block.coolstuffsmod.silver_block": "Khối bạc",
+  "block.coolstuffsmod.raw_silver_block": "Khối bạc thô",
+  "block.coolstuffsmod.silver_ore": "Quặng bạc",
+  "block.coolstuffsmod.deepslate_silver_ore": "Quặng bạc đá bảng sâu"
+}

@@ -1,0 +1,27 @@
+{
+  "item.coolstuffsmod.usable_item": "Usable Item (for sure)",
+  "item.coolstuffsmod.silver_ingot": "Silver Ingot",
+  "item.coolstuffsmod.silver_nugget": "Silver Nugget",
+  "item.coolstuffsmod.raw_silver": "Raw Silver",
+  "item.coolstuffsmod.silver_sword": "Silver Sword",
+  "item.coolstuffsmod.silver_axe": "Silver Axe",
+  "item.coolstuffsmod.silver_pickaxe": "Silver Pickaxe",
+  "item.coolstuffsmod.silver_shovel": "Silver Shovel",
+  "item.coolstuffsmod.silver_hoe": "Silver Hoe",
+  "item.coolstuffsmod.silver_bow": "Silver Bow",
+  "item.coolstuffsmod.silver_helmet": "Silver Helmet",
+  "item.coolstuffsmod.silver_chestplate": "Silver Chestplate",
+  "item.coolstuffsmod.silver_leggings": "Silver Leggings",
+  "item.coolstuffsmod.silver_boots": "Silver Boots",
+  "item.coolstuffsmod.raw_rice_bowl": "Bowl with Raw Rice",
+  "item.coolstuffsmod.rice_bowl": "Bowl with Cooked Rice",
+
+  "block.coolstuffsmod.bamboo_bundle": "Bamboo bundle",
+  "block.coolstuffsmod.dried_bamboo_bundle": "Dried bamboo bundle",
+  "block.coolstuffsmod.dried_bamboo": "Dried bamboo",
+  "block.coolstuffsmod.nether_diamond_ore": "Nether Diamond Ore",
+  "block.coolstuffsmod.silver_block": "Block of Silver",
+  "block.coolstuffsmod.raw_silver_block": "Block of Raw Silver",
+  "block.coolstuffsmod.silver_ore": "Silver Ore",
+  "block.coolstuffsmod.deepslate_silver_ore": "Deepslate Silver Ore"
+}

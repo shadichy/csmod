@@ -6,11 +6,11 @@
     ],
     "key": {
         "a": {
-            "item": "armamod:silver_ingot"
+            "item": "coolstuffsmod:silver_ingot"
         }
     },
     "result": {
-        "item": "armamod:silver_boots",
+        "item": "coolstuffsmod:silver_boots",
         "count": 1
     }
 }

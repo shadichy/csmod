@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "coolstuffsmod:bamboo_bundle"
+  },
+  "result": "coolstuffsmod:dried_bamboo_bundle",
+  "experience": 2.5,
+  "cookingtime": 100
+}

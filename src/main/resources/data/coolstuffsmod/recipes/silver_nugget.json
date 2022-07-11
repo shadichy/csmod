@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "armamod:silver_ingot"
+            "item": "coolstuffsmod:silver_ingot"
         }
     ],
     "result": {
-        "item": "armamod:silver_nugget",
+        "item": "coolstuffsmod:silver_nugget",
         "count": 9
     }
 }

@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "armamod:silver_ore"
+              "name": "coolstuffsmod:silver_ore"
             },
             {
               "type": "minecraft:item",
@@ -39,7 +39,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "armamod:raw_silver"
+              "name": "coolstuffsmod:raw_silver"
             }
           ]
         }

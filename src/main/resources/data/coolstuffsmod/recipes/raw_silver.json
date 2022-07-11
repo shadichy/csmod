@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "armamod:raw_silver_block"
+            "item": "coolstuffsmod:raw_silver_block"
         }
     ],
     "result": {
-        "item": "armamod:raw_silver",
+        "item": "coolstuffsmod:raw_silver",
         "count": 9
     }
 }

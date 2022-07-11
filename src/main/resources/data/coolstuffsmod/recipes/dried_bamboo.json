@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "coolstuffsmod:dried_bamboo_bundle"
+    }
+  ],
+  "result": {
+    "item": "coolstuffsmod:dried_bamboo",
+    "count": 9
+  }
+}

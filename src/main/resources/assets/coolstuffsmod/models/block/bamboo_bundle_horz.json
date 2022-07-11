@@ -1,7 +1,7 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/cube_column_horizontal",
   "textures": {
-    "end": "coolstuffsmod:block/bamboo_bundle",
-    "side": "coolstuffsmod:block/bamboo_bundle"
+    "end": "coolstuffsmod:block/bamboo_bundle_top",
+    "side": "coolstuffsmod:block/bamboo_bundle_side"
   }
 }

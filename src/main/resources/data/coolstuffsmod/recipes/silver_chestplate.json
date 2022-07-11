@@ -7,11 +7,11 @@
     ],
     "key": {
         "a": {
-            "item": "armamod:silver_ingot"
+            "item": "coolstuffsmod:silver_ingot"
         }
     },
     "result": {
-        "item": "armamod:silver_chestplate",
+        "item": "coolstuffsmod:silver_chestplate",
         "count": 1
     }
 }

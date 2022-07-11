@@ -22,13 +22,13 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import org.jetbrains.annotations.Nullable;
 
-public class PunjiSticks extends Block implements Waterloggable {
+public class PunjiSticksBlock extends Block implements Waterloggable {
 
     public static final BooleanProperty WATERLOGGED;
 
     protected static final VoxelShape DEFAULT_SHAPE = Block.createCuboidShape(0, 0, 0, 16, 8, 16);
 
-    public PunjiSticks(AbstractBlock.Settings settings) {
+    public PunjiSticksBlock(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(WATERLOGGED, false));
     }

@@ -1,3 +1,6 @@
 {
-  "parent": "coolstuffsmod:block/dried_bamboo_bundle"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "coolstuffsmod:item/dried_bamboo"
+  }
 }

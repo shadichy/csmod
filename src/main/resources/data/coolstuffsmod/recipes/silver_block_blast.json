@@ -1,9 +1,9 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "item": "armamod:raw_silver_block"
+        "item": "coolstuffsmod:raw_silver_block"
     },
-    "result": "armamod:silver_block",
+    "result": "coolstuffsmod:silver_block",
     "experience": 0.1,
     "cookingtime": 450
 }

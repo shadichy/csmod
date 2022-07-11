@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:smoking",
   "ingredient": {
     "item": "coolstuffsmod:raw_rice_bowl"
   },
   "result": "coolstuffsmod:rice_bowl",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 100
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "armamod:item/silver_ingot"
+    "layer0": "coolstuffsmod:item/silver_ingot"
   }
 }

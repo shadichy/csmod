@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "armamod:raw_silver_block"
+          "name": "coolstuffsmod:raw_silver_block"
         }
       ],
       "conditions": [
