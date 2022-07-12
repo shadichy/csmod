@@ -1,27 +1,51 @@
 {
   "item.coolstuffsmod.usable_item": "Hàng dùng được",
+
   "item.coolstuffsmod.silver_ingot": "Phôi bạc",
   "item.coolstuffsmod.silver_nugget": "Hạt bạc",
   "item.coolstuffsmod.raw_silver": "Bạc thô",
+
   "item.coolstuffsmod.silver_sword": "Kiếm bạc",
   "item.coolstuffsmod.silver_axe": "Rìu bạc",
   "item.coolstuffsmod.silver_pickaxe": "Cuốc chim bạc",
   "item.coolstuffsmod.silver_shovel": "Xẻng bạc",
   "item.coolstuffsmod.silver_hoe": "Cuốc bạc",
   "item.coolstuffsmod.silver_bow": "Cung bạc",
+
   "item.coolstuffsmod.silver_helmet": "Mũ bạc",
   "item.coolstuffsmod.silver_chestplate": "Áo bạc",
   "item.coolstuffsmod.silver_leggings": "Quần bạc",
   "item.coolstuffsmod.silver_boots": "Ủng bạc",
+
   "item.coolstuffsmod.raw_rice_bowl": "Bát gạo",
   "item.coolstuffsmod.rice_bowl": "Bát cơm đã chín",
 
+  "item.coolstuffsmod.steel_ingot": "Phôi thép",
+  "item.coolstuffsmod.steel_nugget": "Hạt thép",
+
   "block.coolstuffsmod.bamboo_bundle": "Bó tre",
+  "block.coolstuffsmod.bamboo_fence": "Hàng rào tre",
+  "block.coolstuffsmod.bamboo_fence_gate": "Cổng rào tre",
+  "block.coolstuffsmod.bamboo_door": "Cửa tre",
+  "block.coolstuffsmod.bamboo_trapdoor": "Cửa sập tre",
+  "block.coolstuffsmod.scaffold_bamboo_door": "Cửa tre có khung",
+  "block.coolstuffsmod.scaffold_bamboo_trapdoor": "Cửa sập tre có khung",
+
   "block.coolstuffsmod.dried_bamboo_bundle": "Bó tre khô",
   "block.coolstuffsmod.dried_bamboo": "Ống tre khô",
+  "block.coolstuffsmod.dried_bamboo_fence": "Hàng rào tre khô",
+  "block.coolstuffsmod.dried_bamboo_fence_gate": "Cổng rào tre khô",
+  "block.coolstuffsmod.dried_bamboo_door": "Cửa tre khô",
+  "block.coolstuffsmod.dried_bamboo_trapdoor": "Cửa sập tre khô",
+  "block.coolstuffsmod.punji_sticks": "Chông",
+
   "block.coolstuffsmod.nether_diamond_ore": "Quặng kim cương nether",
+
   "block.coolstuffsmod.silver_block": "Khối bạc",
   "block.coolstuffsmod.raw_silver_block": "Khối bạc thô",
   "block.coolstuffsmod.silver_ore": "Quặng bạc",
-  "block.coolstuffsmod.deepslate_silver_ore": "Quặng bạc đá bảng sâu"
+  "block.coolstuffsmod.deepslate_silver_ore": "Quặng bạc đá bảng sâu",
+
+  "block.coolstuffsmod.steel_block": "Khối thép",
+  "block.coolstuffsmod.pig_iron": "Khối thép thô"
 }

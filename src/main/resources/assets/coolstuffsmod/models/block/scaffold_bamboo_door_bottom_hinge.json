@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "coolstuffsmod:block/scaffold_bamboo_door_top",
+    "bottom": "coolstuffsmod:block/scaffold_bamboo_door_bottom"
+  }
+}

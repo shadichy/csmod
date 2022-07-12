@@ -1,27 +1,51 @@
 {
   "item.coolstuffsmod.usable_item": "Usable Item (for sure)",
+
   "item.coolstuffsmod.silver_ingot": "Silver Ingot",
   "item.coolstuffsmod.silver_nugget": "Silver Nugget",
   "item.coolstuffsmod.raw_silver": "Raw Silver",
+
   "item.coolstuffsmod.silver_sword": "Silver Sword",
   "item.coolstuffsmod.silver_axe": "Silver Axe",
   "item.coolstuffsmod.silver_pickaxe": "Silver Pickaxe",
   "item.coolstuffsmod.silver_shovel": "Silver Shovel",
   "item.coolstuffsmod.silver_hoe": "Silver Hoe",
   "item.coolstuffsmod.silver_bow": "Silver Bow",
+
   "item.coolstuffsmod.silver_helmet": "Silver Helmet",
   "item.coolstuffsmod.silver_chestplate": "Silver Chestplate",
   "item.coolstuffsmod.silver_leggings": "Silver Leggings",
   "item.coolstuffsmod.silver_boots": "Silver Boots",
+
   "item.coolstuffsmod.raw_rice_bowl": "Bowl with Raw Rice",
   "item.coolstuffsmod.rice_bowl": "Bowl with Cooked Rice",
 
+  "item.coolstuffsmod.steel_ingot": "Steel Ingot",
+  "item.coolstuffsmod.steel_nugget": "Steel Nugget",
+
   "block.coolstuffsmod.bamboo_bundle": "Bamboo bundle",
+  "block.coolstuffsmod.bamboo_fence": "Bamboo fence",
+  "block.coolstuffsmod.bamboo_fence_gate": "Bamboo fence gate",
+  "block.coolstuffsmod.bamboo_door": "Bamboo door",
+  "block.coolstuffsmod.bamboo_trapdoor": "Bamboo trapdoor",
+  "block.coolstuffsmod.scaffold_bamboo_door": "Scaffold bamboo door",
+  "block.coolstuffsmod.scaffold_bamboo_trapdoor": "Scaffold bamboo trapdoor",
+
   "block.coolstuffsmod.dried_bamboo_bundle": "Dried bamboo bundle",
-  "block.coolstuffsmod.dried_bamboo": "Dried bamboo",
+  "block.coolstuffsmod.dried_bamboo": "Dried bamboo stalk",
+  "block.coolstuffsmod.dried_bamboo_fence": "Dried bamboo fence",
+  "block.coolstuffsmod.dried_bamboo_fence_gate": "Dried bamboo fence gate",
+  "block.coolstuffsmod.dried_bamboo_door": "Dried bamboo door",
+  "block.coolstuffsmod.dried_bamboo_trapdoor": "Dried bamboo trapdoor",
+  "block.coolstuffsmod.punji_sticks": "Punji Sticks",
+
   "block.coolstuffsmod.nether_diamond_ore": "Nether Diamond Ore",
+
   "block.coolstuffsmod.silver_block": "Block of Silver",
   "block.coolstuffsmod.raw_silver_block": "Block of Raw Silver",
   "block.coolstuffsmod.silver_ore": "Silver Ore",
-  "block.coolstuffsmod.deepslate_silver_ore": "Deepslate Silver Ore"
+  "block.coolstuffsmod.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "block.coolstuffsmod.steel_block": "Block of Steel",
+  "block.coolstuffsmod.pig_iron": "Block of Raw Steel"
 }

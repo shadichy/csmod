@@ -39,6 +39,12 @@ public class ModItems {
     public static final Item SILVER_ORE;
     public static final Item DEEPSLATE_SILVER_ORE;
     public static final Item NETHER_DIAMOND_ORE;
+    public static final Item PIG_IRON;
+    public static final Item STEEL_BLOCK;
+    public static final Item STEEL_INGOT;
+    public static final Item STEEL_NUGGET;
+
+
 
     // ### METHODS ###
     private static Item registerItem(String name, Item item) {
@@ -71,12 +77,18 @@ public class ModItems {
         ));
         RAW_RICE_BOWL = registerItem("raw_rice_bowl", new Item(new FabricItemSettings()
                 .maxCount(1)
-                .group(ItemGroup.FOOD)
+                .group(ItemGroup.MATERIALS)
         ));
         RICE_BOWL = registerItem("rice_bowl", new StewItem(new FabricItemSettings()
                 .maxCount(1)
                 .group(ItemGroup.FOOD)
                 .food(ModFoodComponents.RICE)
+        ));
+        STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()
+                .group(ItemGroup.MATERIALS)
+        ));
+        STEEL_NUGGET = registerItem("steel_nugget", new Item(new FabricItemSettings()
+                .group(ItemGroup.MATERIALS)
         ));
 
         // ### BLOCK ITEMS ###
@@ -87,7 +99,7 @@ public class ModItems {
         BAMBOO_FENCE_GATE = registerBlockItem("bamboo_fence_gate",ModBlocks.BAMBOO_FENCE_GATE,ItemGroup.DECORATIONS);
         BAMBOO_DOOR = registerBlockItem("bamboo_door",ModBlocks.BAMBOO_DOOR,ItemGroup.DECORATIONS);
         BAMBOO_TRAPDOOR = registerBlockItem("bamboo_trapdoor",ModBlocks.BAMBOO_TRAPDOOR,ItemGroup.DECORATIONS);
-        SCAFFOLD_BAMBOO_DOOR = registerBlockItem("scaffold_bamboo_door)",ModBlocks.SCAFFOLD_BAMBOO_DOOR,ItemGroup.DECORATIONS);
+        SCAFFOLD_BAMBOO_DOOR = registerBlockItem("scaffold_bamboo_door",ModBlocks.SCAFFOLD_BAMBOO_DOOR,ItemGroup.DECORATIONS);
         SCAFFOLD_BAMBOO_TRAPDOOR = registerBlockItem("scaffold_bamboo_trapdoor",ModBlocks.SCAFFOLD_BAMBOO_TRAPDOOR,ItemGroup.DECORATIONS);
 
         // Dried bamboo
@@ -105,6 +117,8 @@ public class ModItems {
         SILVER_ORE = registerBlockItem("silver_ore",ModBlocks.SILVER_ORE,ItemGroup.BUILDING_BLOCKS);
         DEEPSLATE_SILVER_ORE = registerBlockItem("deepslate_silver_ore",ModBlocks.DEEPSLATE_SILVER_ORE,ItemGroup.BUILDING_BLOCKS);
         NETHER_DIAMOND_ORE = registerBlockItem("nether_diamond_ore",ModBlocks.NETHER_DIAMOND_ORE,ItemGroup.BUILDING_BLOCKS);
+        STEEL_BLOCK = registerBlockItem("steel_block",ModBlocks.STEEL_BLOCK,ItemGroup.BUILDING_BLOCKS);
+        PIG_IRON = registerBlockItem("pig_iron",ModBlocks.PIG_IRON,ItemGroup.BUILDING_BLOCKS);
 
     }
 }

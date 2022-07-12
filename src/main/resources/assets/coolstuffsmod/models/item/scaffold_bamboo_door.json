@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "coolstuffsmod:item/scaffold_bamboo_door"
+  }
+}

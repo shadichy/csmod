@@ -14,7 +14,7 @@ public class ModBlocks {
 
     // Bamboo blocks
     public static final Block BAMBOO_BUNDLE = registerBlock("bamboo_bundle",
-            new PillarBlock(FabricBlockSettings
+            new BambooBlock(FabricBlockSettings
                     .of(Material.BAMBOO, MapColor.DARK_GREEN)
                     .breakInstantly()
                     .strength(1.0F)
@@ -155,6 +155,21 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(3.0F, 3.0F)
                     .sounds(BlockSoundGroup.NETHER_GOLD_ORE)
+            ));
+
+    // Steel
+    public static final Block PIG_IRON = registerBlock("pig_iron",
+            new Block(FabricBlockSettings
+                    .of(Material.STONE, MapColor.RAW_IRON_PINK)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+            ));
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(FabricBlockSettings
+                    .of(Material.METAL, MapColor.IRON_GRAY)
+                    .requiresTool()
+                    .strength(5.0F, 7.0F)
+                    .sounds(BlockSoundGroup.METAL)
             ));
 
     // Methods
