@@ -48,14 +48,22 @@ public class PunjiSticksBlock extends Block implements Waterloggable {
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockPos blockPos = pos.down();
-        return world.getBlockState(blockPos).isIn(BlockTags.DIRT) || world.getBlockState(blockPos).isOf(Blocks.FARMLAND);
+        return  world.getBlockState(blockPos).isIn(BlockTags.DIRT) ||
+                world.getBlockState(blockPos).isIn(BlockTags.SAND) ||
+                world.getBlockState(blockPos).isIn(BlockTags.CORAL_BLOCKS) ||
+                world.getBlockState(blockPos).isIn(BlockTags.NYLIUM) ||
+                world.getBlockState(blockPos).isIn(BlockTags.WOOL) ||
+                world.getBlockState(blockPos).isOf(Blocks.FARMLAND) ||
+                world.getBlockState(blockPos).isOf(Blocks.GRAVEL) ||
+                world.getBlockState(blockPos).isOf(Blocks.NETHERRACK) ||
+                world.getBlockState(blockPos).isOf(Blocks.CLAY);
     }
 
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        if (entity instanceof LivingEntity && entity.getType() != EntityType.BEE) {
-            double f = Math.abs(entity.getY() - entity.lastRenderY);
-            if (f >= 0.003000000026077032) {
+        if (entity.getType() == EntityType.BOAT || (entity instanceof LivingEntity && entity.getType() != EntityType.BEE)) {
+            double f = entity.getY() - entity.lastRenderY;
+            if (f <= -0.003000000026077032) {
                 entity.handleFallDamage(entity.fallDistance + 2.0F, 2.0F, ModDamageSource.FALL_TO_PUNJI_STICKS);
             } else
                 entity.slowMovement(state, new Vec3d(0.800000011920929, 0.75, 0.800000011920929));
@@ -64,7 +72,6 @@ public class PunjiSticksBlock extends Block implements Waterloggable {
             if (d >= 0.003000000026077032 || e >= 0.003000000026077032) {
                 entity.damage(ModDamageSource.MOVE_IN_PUNJI_STICKS, 1.0F);
             }
-
         }
     }
 
@@ -94,11 +101,13 @@ public class PunjiSticksBlock extends Block implements Waterloggable {
 
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+        if (!this.canPlaceAt(state, world, pos)) {
+            return Blocks.AIR.getDefaultState();
+        }
         if (state.get(WATERLOGGED)) {
             // This is for 1.17 and below: world.getFluidTickScheduler().schedule(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
             world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
         }
-
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
 

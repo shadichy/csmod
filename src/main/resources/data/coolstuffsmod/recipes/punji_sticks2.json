@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "punji",
+    "pattern": [
+        "###",
+        "#W#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "coolstuffsmod:dried_bamboo"
+        },
+        "W": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "coolstuffsmod:punji_sticks",
+        "count": 1
+    }
+}

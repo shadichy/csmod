@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "WW",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "coolstuffsmod:bamboo_bundle"
+    },
+    "W": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "coolstuffsmod:scaffold_bamboo_door",
+    "count": 3
+  }
+}

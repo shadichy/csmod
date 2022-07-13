@@ -3,7 +3,6 @@ package vn.yuunixteam.coolstuffsmod.block;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PillarBlock;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
@@ -15,9 +14,9 @@ public class BambooBlock extends PillarBlock {
 
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (world.getDimension().isUltrawarm()) {
-            world.setBlockState(pos, ModBlocks.DRIED_BAMBOO_BUNDLE.getDefaultState(), 3);
+            world.setBlockState(pos, ModBlocks.DRIED_BAMBOO_BUNDLE.getDefaultState().with(AXIS, state.get(AXIS)), 3);
             world.syncWorldEvent(2009, pos, 0);
-            world.playSound((PlayerEntity)null, pos, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.BLOCKS, 1.0F, (1.0F + world.getRandom().nextFloat() * 0.2F) * 0.7F);
+            world.playSound(null, pos, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.BLOCKS, 1.0F, (1.0F + world.getRandom().nextFloat() * 0.2F) * 0.7F);
         }
 
     }

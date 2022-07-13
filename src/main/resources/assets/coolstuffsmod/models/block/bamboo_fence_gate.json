@@ -1,0 +1,6 @@
+{
+  "parent": "coolstuffsmod:block/fence_gate",
+  "textures": {
+    "texture": "coolstuffsmod:block/bamboo_fence"
+  }
+}

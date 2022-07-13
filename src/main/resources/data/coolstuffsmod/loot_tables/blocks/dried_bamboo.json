@@ -9,6 +9,11 @@
           "type": "minecraft:item",
           "name": "coolstuffsmod:dried_bamboo"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

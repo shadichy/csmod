@@ -5,9 +5,11 @@ import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.tag.BlockTags;
 import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -15,7 +17,10 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Random;
 
 public class DriedBambooBlock extends Block implements Waterloggable {
     protected static final VoxelShape DEFAULT_SHAPE = Block.createCuboidShape(6, 0.0, 6, 10, 16.0, 10);
@@ -55,11 +60,24 @@ public class DriedBambooBlock extends Block implements Waterloggable {
     }
 
     @Override
+    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        if (!state.canPlaceAt(world, pos)) {
+            world.breakBlock(pos, true);
+        }
+
+    }
+
+    @Override
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
         if (type == NavigationType.WATER) {
             return world.getFluidState(pos).isIn(FluidTags.WATER);
         }
         return false;
+    }
+
+    @Override
+    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+        return world.getBlockState(pos.down()).getMaterial().isSolid();
     }
 
     @Override
@@ -75,6 +93,9 @@ public class DriedBambooBlock extends Block implements Waterloggable {
 
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+        if (!state.canPlaceAt(world, pos)) {
+            world.createAndScheduleBlockTick(pos, this, 1);
+        }
         if (state.get(WATERLOGGED)) {
             // This is for 1.17 and below: world.getFluidTickScheduler().schedule(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
             world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));

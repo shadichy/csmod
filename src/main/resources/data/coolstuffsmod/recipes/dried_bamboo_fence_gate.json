@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "coolstuffsmod:dried_bamboo_bundle"
+    }
+  },
+  "result": {
+    "item": "coolstuffsmod:dried_bamboo_fence_gate"
+  }
+}

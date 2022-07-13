@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#W#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "coolstuffsmod:raw_iron"
+        },
+        "W": {
+            "item": "minecraft:coal"
+        }
+    },
+    "result": {
+        "item": "coolstuffsmod:pig_iron",
+        "count": 1
+    }
+}

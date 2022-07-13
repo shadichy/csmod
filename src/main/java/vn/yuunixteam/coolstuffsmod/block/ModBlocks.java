@@ -23,26 +23,26 @@ public class ModBlocks {
                     .dynamicBounds()
             ));
     public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence",
-            new FenceBlock(FabricBlockSettings
+            new BambooFenceBlock(FabricBlockSettings
                     .of(Material.BAMBOO)
                     .strength(2.0F, 3.0F)
                     .sounds(BlockSoundGroup.BAMBOO)
             ));
     public static final Block BAMBOO_FENCE_GATE = registerBlock("bamboo_fence_gate",
-            new FenceGateBlock(FabricBlockSettings
+            new BambooFenceGateBlock(FabricBlockSettings
                     .of(Material.BAMBOO)
                     .strength(2.0F, 3.0F)
                     .sounds(BlockSoundGroup.BAMBOO)
             ));
     public static final Block BAMBOO_DOOR = registerBlock("bamboo_door",
-            new DoorBlock(FabricBlockSettings
+            new BambooDoorBlock(FabricBlockSettings
                     .of(Material.BAMBOO)
                     .strength(3.0F)
                     .sounds(BlockSoundGroup.BAMBOO)
                     .nonOpaque()
             ));
     public static final Block BAMBOO_TRAPDOOR = registerBlock("bamboo_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings
+            new BambooTrapdoorBlock(FabricBlockSettings
                     .of(Material.BAMBOO)
                     .strength(1.0F)
                     .sounds(BlockSoundGroup.BAMBOO)
@@ -115,7 +115,7 @@ public class ModBlocks {
     public static final Block PUNJI_STICKS = registerBlock("punji_sticks",
             new PunjiSticksBlock(FabricBlockSettings
                     .of(Material.BAMBOO)
-                    .strength(1.0F)
+                    .strength(3.0F, 4.0F)
                     .sounds(BlockSoundGroup.BAMBOO)
                     .noCollision()
             ));

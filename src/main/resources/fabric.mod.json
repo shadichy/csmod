@@ -3,23 +3,26 @@
   "id": "coolstuffsmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cool Stuffs Mod",
+  "description": "This is a description!",
   "authors": [
     "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/shadichy/csmod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/coolstuffsmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "vn.yuunixteam.coolstuffsmod.Main"
+    ],
+    "client": [
+      "vn.yuunixteam.coolstuffsmod.Client"
     ]
   },
   "mixins": [

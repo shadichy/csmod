@@ -1,0 +1,59 @@
+{
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [7.5, 12, 0],
+			"to": [8.5, 15, 9],
+			"faces": {
+				"north": {"uv": [13, 0, 15, 3], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 9, 16, 12], "texture": "#texture"},
+				"south": {"uv": [13, 4, 15, 7], "texture": "#texture"},
+				"west": {"uv": [7, 9, 16, 12], "texture": "#texture"},
+				"up": {"uv": [4, 0, 5, 9], "texture": "#texture"},
+				"down": {"uv": [5, 0, 6, 9], "texture": "#texture"}
+			},
+			"__comment": "top bar"
+		},
+		{
+			"from": [7.5, 3, 0],
+			"to": [8.5, 6, 9],
+			"faces": {
+				"north": {"uv": [13, 0, 15, 3], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 9, 16, 12], "texture": "#texture"},
+				"south": {"uv": [13, 4, 15, 7], "texture": "#texture"},
+				"west": {"uv": [7, 9, 16, 12], "texture": "#texture"},
+				"up": {"uv": [4, 0, 5, 9], "texture": "#texture"},
+				"down": {"uv": [5, 0, 6, 9], "texture": "#texture"}
+			},
+			"__comment": "lower bar"
+		},
+		{
+			"from": [7, 0, 3.5],
+			"to": [9, 16, 5.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#texture"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#texture"},
+				"up": {"uv": [13, 1, 15, 3], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [13, 5, 15, 7], "texture": "#texture", "cullface": "down"}
+			},
+			"__comment": "D-bar 1"
+		},
+		{
+			"from": [7, 0, 0.5],
+			"to": [9, 16, 2.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#texture"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#texture"},
+				"up": {"uv": [13, 1, 15, 3], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [13, 5, 15, 7], "texture": "#texture", "cullface": "down"}
+			},
+			"__comment": "D-bar 2"
+		}
+	]
+}
