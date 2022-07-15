@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "coolstuffsmod:steel_nugget"
+        }
+    },
+    "result": {
+        "item": "coolstuffsmod:steel_ingot",
+        "count": 1
+    }
+}

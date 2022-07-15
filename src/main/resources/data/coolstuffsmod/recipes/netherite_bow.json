@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " aB",
+        "a B",
+        " aB"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "B": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "coolstuffsmod:netherite_bow",
+        "count": 1
+    }
+}

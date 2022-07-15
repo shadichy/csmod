@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "coolstuffsmod:steel_pickaxe"
+    },
+    {
+      "item": "coolstuffsmod:steel_shovel"
+    },
+    {
+      "item": "coolstuffsmod:steel_axe"
+    },
+    {
+      "item": "coolstuffsmod:steel_hoe"
+    },
+    {
+      "item": "coolstuffsmod:steel_sword"
+    },
+    {
+      "item": "coolstuffsmod:steel_helmet"
+    },
+    {
+      "item": "coolstuffsmod:steel_chestplate"
+    },
+    {
+      "item": "coolstuffsmod:steel_leggings"
+    },
+    {
+      "item": "coolstuffsmod:steel_boots"
+    }
+  ],
+  "result": "minecraft:iron_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

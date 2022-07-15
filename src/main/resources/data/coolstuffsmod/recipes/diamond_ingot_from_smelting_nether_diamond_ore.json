@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "diamond",
+  "ingredient": {
+    "item": "coolstuffsmod:nether_diamond_ore"
+  },
+  "result": "minecraft:diamond",
+  "experience": 2.0,
+  "cookingtime": 200
+}

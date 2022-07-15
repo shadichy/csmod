@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " a ",
-        "aBa",
-        " a "
+        " aB",
+        "a B",
+        " aB"
     ],
     "key": {
         "a": {
             "item": "coolstuffsmod:silver_ingot"
         },
         "B": {
-            "item": "minecraft:bow"
+            "item": "minecraft:string"
         }
     },
     "result": {

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "simplysteel:item/steel_shovel"
+  }
+}

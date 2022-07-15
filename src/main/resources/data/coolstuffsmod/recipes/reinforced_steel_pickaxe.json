@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		" W ",
+		" W "
+	],
+	"key": {
+		"#": {
+			"item": "coolstuffsmod:steel_ingot"
+		},
+		"W": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:reinforced_steel_pickaxe",
+		"count": 1
+	}
+}

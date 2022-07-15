@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W"
+	],
+	"key": {
+		"#": {
+			"item": "coolstuffsmod:silver_ingot"
+		},
+		"W": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:reinforced_silver_knife",
+		"count": 1
+	}
+}

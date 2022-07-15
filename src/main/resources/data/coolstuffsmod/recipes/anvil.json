@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "tag": "coolstuffsmod:iron_block_materials"
+    },
+    "i": {
+      "tag": "coolstuffsmod:iron_materials"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil"
+  }
+}

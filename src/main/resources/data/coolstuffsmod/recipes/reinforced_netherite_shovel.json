@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W",
+		"W"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"W": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:reinforced_netherite_shovel",
+		"count": 1
+	}
+}

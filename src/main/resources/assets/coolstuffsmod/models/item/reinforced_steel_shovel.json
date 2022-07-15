@@ -1,0 +1,6 @@
+{
+	"parent":"item/handheld",
+	"textures":{
+		"layer0":"coolstuffsmod:item/reinforced_steel_shovel"
+	}
+}

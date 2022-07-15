@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "coolstuffsmod:steel_block",
+    "minecraft:iron_block"
+
+  ]
+}

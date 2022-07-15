@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W"
+	],
+	"key": {
+		"#": {
+			"tag": "minecraft:stone_tool_materials"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:stone_knife",
+		"count": 1
+	}
+}

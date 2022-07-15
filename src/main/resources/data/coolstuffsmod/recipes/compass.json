@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "coolstuffsmod:iron_materials"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:compass"
+  }
+}

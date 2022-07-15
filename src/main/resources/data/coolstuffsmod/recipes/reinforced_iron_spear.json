@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  #",
+		" W ",
+		"W  "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:iron_ingot"
+		},
+		"W": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:reinforced_iron_spear",
+		"count": 1
+	}
+}

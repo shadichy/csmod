@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:iron_ingot"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:iron_knife",
+		"count": 1
+	}
+}

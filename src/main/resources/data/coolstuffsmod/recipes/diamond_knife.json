@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:diamond"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:diamond_knife",
+		"count": 1
+	}
+}

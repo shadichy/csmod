@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"W"
+	],
+	"key": {
+		"#": {
+			"item": "coolstuffsmod:silver_ingot"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "coolstuffsmod:silver_knife",
+		"count": 1
+	}
+}
