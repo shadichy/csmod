@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coolstuffsmod:item/scorched_rice"
+  }
+}

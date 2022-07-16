@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "coolstuffsmod:bamboo_bundle",
+    "coolstuffsmod:dried_bamboo_bundle"
   ]
 }

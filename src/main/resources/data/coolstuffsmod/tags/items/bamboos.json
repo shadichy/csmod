@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "coolstuffsmod:bamboo",
+    "minecraft:bamboo",
     "coolstuffsmod:dried_bamboo"
   ]
 }

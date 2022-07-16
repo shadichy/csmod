@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "coolstuffsmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "coolstuffsmod:steel_chestplate",
+    "count": 1
+  }
+}

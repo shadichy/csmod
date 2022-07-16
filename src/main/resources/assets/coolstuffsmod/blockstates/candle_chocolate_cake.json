@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "coolstuffsmod:block/candle_chocolate_cake"
+    },
+    "lit=true": {
+      "model": "coolstuffsmod:block/candle_chocolate_cake_lit"
+    }
+  }
+}

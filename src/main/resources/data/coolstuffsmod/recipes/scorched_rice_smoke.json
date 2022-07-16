@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "coolstuffsmod:onigiri"
+  },
+  "result": "coolstuffsmod:scorched_rice",
+  "experience": 0.35,
+  "cookingtime": 100
+}

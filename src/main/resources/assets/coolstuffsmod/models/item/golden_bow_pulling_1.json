@@ -1,0 +1,6 @@
+{
+	"parent": "coolstuffsmod:item/golden_bow",
+	"textures": {
+		"layer0": "coolstuffsmod:item/golden_bow_pulling_1"
+	}
+}

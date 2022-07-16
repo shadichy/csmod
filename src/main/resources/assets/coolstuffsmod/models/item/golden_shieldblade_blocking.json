@@ -1,0 +1,6 @@
+{
+	"parent":"coolstuffsmod:item/handblocking",
+	"textures":{
+		"layer0":"coolstuffsmod:item/golden_shieldblade"
+	}
+}

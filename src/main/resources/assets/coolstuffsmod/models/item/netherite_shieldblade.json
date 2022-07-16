@@ -1,0 +1,14 @@
+{
+	"parent":"coolstuffsmod:item/handnotheld",
+	"textures":{
+		"layer0":"coolstuffsmod:item/netherite_shieldblade"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "coolstuffsmod:item/netherite_shieldblade_blocking"
+		}
+	]
+}

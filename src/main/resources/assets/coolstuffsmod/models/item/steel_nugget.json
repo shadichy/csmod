@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "simplysteel:item/steel_nugget"
+    "layer0": "coolstuffsmod:item/steel_nugget"
   }
 }

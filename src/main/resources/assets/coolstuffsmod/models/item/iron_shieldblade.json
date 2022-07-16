@@ -1,0 +1,14 @@
+{
+	"parent":"coolstuffsmod:item/handnotheld",
+	"textures":{
+		"layer0":"coolstuffsmod:item/iron_shieldblade"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "coolstuffsmod:item/iron_shieldblade_blocking"
+		}
+	]
+}

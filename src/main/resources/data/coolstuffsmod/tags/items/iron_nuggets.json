@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "coolstuffsmod:steel_ingot",
-    "minecraft:iron_ingot"
+    "coolstuffsmod:steel_nugget",
+    "minecraft:iron_nugget"
 
   ]
 }

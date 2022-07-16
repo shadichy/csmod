@@ -1,6 +1,6 @@
 {
 	"parent":"item/handheld",
 	"textures":{
-		"layer0":"coolstuffsmod:item/steel_knife"
+		"layer0":"coolstuffsmod:item/stone_knife"
 	}
 }

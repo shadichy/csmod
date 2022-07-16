@@ -1,6 +1,0 @@
-{
-	"parent":"item/handheld",
-	"textures":{
-		"layer0":"coolstuffsmod:item/reinforced_gold_axe"
-	}
-}

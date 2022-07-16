@@ -1,6 +1,6 @@
 {
 	"parent":"item/handheld",
 	"textures":{
-		"layer0":"coolstuffsmod:item/gold_knife"
+		"layer0":"coolstuffsmod:item/golden_knife"
 	}
 }

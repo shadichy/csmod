@@ -1,0 +1,6 @@
+{
+	"parent": "coolstuffsmod:item/iron_bow",
+	"textures": {
+		"layer0": "coolstuffsmod:item/iron_bow_pulling_2"
+	}
+}
