@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 import vn.yuunixteam.coolstuffsmod.block.ModBlocks;
+import vn.yuunixteam.coolstuffsmod.util.ModModelPredicateProvider;
 
 public class Client implements ClientModInitializer {
 
@@ -12,7 +13,9 @@ public class Client implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SCAFFOLD_BAMBOO_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SCAFFOLD_BAMBOO_TRAPDOOR, RenderLayer.getCutout());
 
-
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PUNJI_STICKS, RenderLayer.getCutout());
+
+
+        ModModelPredicateProvider.registerModModels();
     }
 }
