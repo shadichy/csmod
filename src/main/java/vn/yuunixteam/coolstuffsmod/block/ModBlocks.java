@@ -7,6 +7,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.BlockView;
 import vn.yuunixteam.coolstuffsmod.Main;
@@ -122,6 +123,8 @@ public class ModBlocks {
                     .noCollision()
             ));
 
+    public static final Block GRASS_CARPET = registerBlock("grass_carpet", new CarpetBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(1F).noCollision().sounds(BlockSoundGroup.GRASS)));
+
     // Silver blocks
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
             new Block(FabricBlockSettings
@@ -141,14 +144,14 @@ public class ModBlocks {
                     .of(Material.STONE)
                     .requiresTool()
                     .strength(3.0F,3.0F)
-            ));
+                    , UniformIntProvider.create(0, 2)));
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             new OreBlock(FabricBlockSettings
                     .copy(SILVER_ORE)
                     .mapColor(MapColor.DEEPSLATE_GRAY)
                     .strength(4.5F, 3.0F)
                     .sounds(BlockSoundGroup.DEEPSLATE)
-            ));
+                    , UniformIntProvider.create(0, 2)));
 
     // Nether ores
     public static final Block NETHER_DIAMOND_ORE = registerBlock("nether_diamond_ore",
@@ -157,7 +160,7 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(3.0F, 3.0F)
                     .sounds(BlockSoundGroup.NETHER_GOLD_ORE)
-            ));
+                    , UniformIntProvider.create(0, 2)));
 
     // Steel
     public static final Block PIG_IRON = registerBlock("pig_iron",
@@ -182,22 +185,22 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.WOOL)
             ));
     public static final Block CANDLE_CHOCOLATE_CAKE = registerBlock("candle_chocolate_cake", new CandleCakeBlock(Blocks.CANDLE, AbstractBlock.Settings.copy(CHOCOLATE_CAKE).luminance(createLightLevelFromLitBlockState(3))));
-    public static final Block WHITE_CANDLE_CHOCOLATE_CAKE = registerBlock("white_candle_chocolate_cake", new CandleCakeBlock(Blocks.WHITE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block ORANGE_CANDLE_CHOCOLATE_CAKE = registerBlock("orange_candle_chocolate_cake", new CandleCakeBlock(Blocks.ORANGE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block MAGENTA_CANDLE_CHOCOLATE_CAKE = registerBlock("magenta_candle_chocolate_cake", new CandleCakeBlock(Blocks.MAGENTA_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block LIGHT_BLUE_CANDLE_CHOCOLATE_CAKE = registerBlock("light_blue_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIGHT_BLUE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block YELLOW_CANDLE_CHOCOLATE_CAKE = registerBlock("yellow_candle_chocolate_cake", new CandleCakeBlock(Blocks.YELLOW_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block LIME_CANDLE_CHOCOLATE_CAKE = registerBlock("lime_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIME_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block PINK_CANDLE_CHOCOLATE_CAKE = registerBlock("pink_candle_chocolate_cake", new CandleCakeBlock(Blocks.PINK_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block GRAY_CANDLE_CHOCOLATE_CAKE = registerBlock("gray_candle_chocolate_cake", new CandleCakeBlock(Blocks.GRAY_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block LIGHT_GRAY_CANDLE_CHOCOLATE_CAKE = registerBlock("light_gray_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIGHT_GRAY_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block CYAN_CANDLE_CHOCOLATE_CAKE = registerBlock("cyan_candle_chocolate_cake", new CandleCakeBlock(Blocks.CYAN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block PURPLE_CANDLE_CHOCOLATE_CAKE = registerBlock("purple_candle_chocolate_cake", new CandleCakeBlock(Blocks.PURPLE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block BLUE_CANDLE_CHOCOLATE_CAKE = registerBlock("blue_candle_chocolate_cake", new CandleCakeBlock(Blocks.BLUE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block BROWN_CANDLE_CHOCOLATE_CAKE = registerBlock("brown_candle_chocolate_cake", new CandleCakeBlock(Blocks.BROWN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block GREEN_CANDLE_CHOCOLATE_CAKE = registerBlock("green_candle_chocolate_cake", new CandleCakeBlock(Blocks.GREEN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block RED_CANDLE_CHOCOLATE_CAKE = registerBlock("red_candle_chocolate_cake", new CandleCakeBlock(Blocks.RED_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
-    public static final Block BLACK_CANDLE_CHOCOLATE_CAKE = registerBlock("black_candle_chocolate_cake", new CandleCakeBlock(Blocks.BLACK_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+    public static final Block WHITE_CANDLE_CHOCOLATE_CAKE;
+    public static final Block ORANGE_CANDLE_CHOCOLATE_CAKE;
+    public static final Block MAGENTA_CANDLE_CHOCOLATE_CAKE;
+    public static final Block LIGHT_BLUE_CANDLE_CHOCOLATE_CAKE;
+    public static final Block YELLOW_CANDLE_CHOCOLATE_CAKE;
+    public static final Block LIME_CANDLE_CHOCOLATE_CAKE;
+    public static final Block PINK_CANDLE_CHOCOLATE_CAKE;
+    public static final Block GRAY_CANDLE_CHOCOLATE_CAKE;
+    public static final Block LIGHT_GRAY_CANDLE_CHOCOLATE_CAKE;
+    public static final Block CYAN_CANDLE_CHOCOLATE_CAKE;
+    public static final Block PURPLE_CANDLE_CHOCOLATE_CAKE;
+    public static final Block BLUE_CANDLE_CHOCOLATE_CAKE;
+    public static final Block BROWN_CANDLE_CHOCOLATE_CAKE;
+    public static final Block GREEN_CANDLE_CHOCOLATE_CAKE;
+    public static final Block RED_CANDLE_CHOCOLATE_CAKE;
+    public static final Block BLACK_CANDLE_CHOCOLATE_CAKE;
 
     // Methods
     private static ToIntFunction<BlockState> createLightLevelFromLitBlockState(int litLevel) {
@@ -213,5 +216,24 @@ public class ModBlocks {
 
     public static void registerModBlock() {
         Main.LOGGER.info("[CS] Registering blocks for " + Main.MOD_ID);
+    }
+
+    static {
+        WHITE_CANDLE_CHOCOLATE_CAKE = registerBlock("white_candle_chocolate_cake", new CandleCakeBlock(Blocks.WHITE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        ORANGE_CANDLE_CHOCOLATE_CAKE = registerBlock("orange_candle_chocolate_cake", new CandleCakeBlock(Blocks.ORANGE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        MAGENTA_CANDLE_CHOCOLATE_CAKE = registerBlock("magenta_candle_chocolate_cake", new CandleCakeBlock(Blocks.MAGENTA_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        LIGHT_BLUE_CANDLE_CHOCOLATE_CAKE = registerBlock("light_blue_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIGHT_BLUE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        YELLOW_CANDLE_CHOCOLATE_CAKE = registerBlock("yellow_candle_chocolate_cake", new CandleCakeBlock(Blocks.YELLOW_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        LIME_CANDLE_CHOCOLATE_CAKE = registerBlock("lime_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIME_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        PINK_CANDLE_CHOCOLATE_CAKE = registerBlock("pink_candle_chocolate_cake", new CandleCakeBlock(Blocks.PINK_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        GRAY_CANDLE_CHOCOLATE_CAKE = registerBlock("gray_candle_chocolate_cake", new CandleCakeBlock(Blocks.GRAY_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        LIGHT_GRAY_CANDLE_CHOCOLATE_CAKE = registerBlock("light_gray_candle_chocolate_cake", new CandleCakeBlock(Blocks.LIGHT_GRAY_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        CYAN_CANDLE_CHOCOLATE_CAKE = registerBlock("cyan_candle_chocolate_cake", new CandleCakeBlock(Blocks.CYAN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        PURPLE_CANDLE_CHOCOLATE_CAKE = registerBlock("purple_candle_chocolate_cake", new CandleCakeBlock(Blocks.PURPLE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        BLUE_CANDLE_CHOCOLATE_CAKE = registerBlock("blue_candle_chocolate_cake", new CandleCakeBlock(Blocks.BLUE_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        BROWN_CANDLE_CHOCOLATE_CAKE = registerBlock("brown_candle_chocolate_cake", new CandleCakeBlock(Blocks.BROWN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        GREEN_CANDLE_CHOCOLATE_CAKE = registerBlock("green_candle_chocolate_cake", new CandleCakeBlock(Blocks.GREEN_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        RED_CANDLE_CHOCOLATE_CAKE = registerBlock("red_candle_chocolate_cake", new CandleCakeBlock(Blocks.RED_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
+        BLACK_CANDLE_CHOCOLATE_CAKE = registerBlock("black_candle_chocolate_cake", new CandleCakeBlock(Blocks.BLACK_CANDLE, AbstractBlock.Settings.copy(CANDLE_CHOCOLATE_CAKE)));
     }
 }

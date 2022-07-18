@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory;
 import vn.yuunixteam.coolstuffsmod.block.ModBlocks;
 import vn.yuunixteam.coolstuffsmod.item.ModItems;
 import vn.yuunixteam.coolstuffsmod.util.ModRegistries;
+import vn.yuunixteam.coolstuffsmod.world.feature.ModConfiguredFeatures;
+import vn.yuunixteam.coolstuffsmod.world.gen.ModWorldGen;
 
 public class Main implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -20,8 +22,12 @@ public class Main implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItem();
 		ModBlocks.registerModBlock();
+
+		ModWorldGen.generateModWorldGen();
 
 		ModRegistries.registerModStuffs();
 	}

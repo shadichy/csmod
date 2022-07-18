@@ -2,5 +2,13 @@
 	"parent":"item/handheld",
 	"textures":{
 		"layer0":"coolstuffsmod:item/silver_spear"
-	}
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"throwing": 1
+			},
+			"model": "coolstuffsmod:item/silver_spear_throwing"
+		}
+	]
 }

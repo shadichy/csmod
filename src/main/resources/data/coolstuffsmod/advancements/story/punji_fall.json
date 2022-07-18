@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "coolstuffsmod:punji_sticks"
+    },
+    "title": {
+      "text": "A deadly trap"
+    },
+    "description": {
+      "text": "Falling into punji sticks trap"
+    },
+    "frame": "task",
+    "show_toast": true
+  },
+  "criteria": {
+    "punji_fall": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "coolstuffsmod:punji_sticks"
+              ]
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "coolstuffsmod:punji_sticks"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "punji_fall"
+    ]
+  ]
+}

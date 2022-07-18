@@ -1,20 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " aB",
-        "a B",
-        " aB"
-    ],
-    "key": {
-        "a": {
-            "item": "minecraft:netherite_ingot"
-        },
-        "B": {
-            "item": "minecraft:string"
-        }
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "coolstuffsmod:diamond_bow"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
     },
     "result": {
-        "item": "coolstuffsmod:netherite_bow",
-        "count": 1
+        "item": "coolstuffsmod:netherite_bow"
     }
 }

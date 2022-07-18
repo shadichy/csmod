@@ -32,8 +32,7 @@ public class ModModelPredicateProvider {
                 return entity.getActiveItem() != stack ? 0.0F : (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 20.0F;
             }
         });
-        ModelPredicateProviderRegistry.
-                register(bowItem, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
+        ModelPredicateProviderRegistry.register(bowItem, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
     }
 
     private static void registerSpear(Item spearItem) {

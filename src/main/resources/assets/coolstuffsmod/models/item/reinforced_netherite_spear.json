@@ -2,5 +2,13 @@
 	"parent":"item/handheld",
 	"textures":{
 		"layer0":"coolstuffsmod:item/reinforced_netherite_spear"
-	}
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"throwing": 1
+			},
+			"model": "coolstuffsmod:item/reinforced_netherite_spear_throwing"
+		}
+	]
 }

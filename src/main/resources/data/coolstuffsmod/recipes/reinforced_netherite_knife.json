@@ -1,20 +1,12 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		" #",
-		"# ",
-		"W "
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:netherite_ingot"
-		},
-		"W": {
-			"item": "minecraft:iron_bars"
-		}
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "coolstuffsmod:reinforced_diamond_knife"
+	},
+	"addition": {
+		"item": "minecraft:netherite_ingot"
 	},
 	"result": {
-		"item": "coolstuffsmod:reinforced_netherite_knife",
-		"count": 1
+		"item": "coolstuffsmod:reinforced_netherite_knife"
 	}
 }

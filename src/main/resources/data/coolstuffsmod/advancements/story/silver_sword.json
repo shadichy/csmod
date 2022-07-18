@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "coolstuffsmod:silver_sword"
+    },
+    "title": {
+      "text": "A dangerous jewelry"
+    },
+    "description": {
+      "text": "Craft a Silver Sword"
+    }
+  },
+  "criteria": {
+    "silver_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coolstuffsmod:silver_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silver_sword"
+    ]
+  ]
+}

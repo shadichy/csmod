@@ -1,20 +1,12 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		" # ",
-		"#W#",
-		"# #"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:netherite_ingot"
-		},
-		"W": {
-			"item": "minecraft:iron_bars"
-		}
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "coolstuffsmod:diamond_shieldblade"
+	},
+	"addition": {
+		"item": "minecraft:netherite_ingot"
 	},
 	"result": {
-		"item": "coolstuffsmod:netherite_shieldblade",
-		"count": 1
+		"item": "coolstuffsmod:netherite_shieldblade"
 	}
 }

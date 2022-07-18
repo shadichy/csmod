@@ -1,0 +1,6 @@
+{
+    "parent": "coolstuffsmod:item/spear_throwing",
+    "textures":{
+        "layer0":"coolstuffsmod:item/reinforced_netherite_spear"
+    }
+}

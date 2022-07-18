@@ -58,6 +58,7 @@ public class ModItems {
     public static final Item DRIED_BAMBOO_DOOR;
     public static final Item DRIED_BAMBOO_TRAPDOOR;
     public static final Item PUNJI_STICKS;
+    public static final Item GRASS_CARPET;
 
     // Nether ore
     public static final Item NETHER_DIAMOND_ORE;
@@ -285,12 +286,12 @@ public class ModItems {
         NETHERITE_KNIFE = registerItem("netherite_knife", new SwordItem(ToolMaterials.NETHERITE, 0, 1.5F, new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
         // Shieldblade
-        IRON_SHIELDBLADE = registerItem("iron_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_IRON, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
-        STEEL_SHIELDBLADE = registerItem("steel_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_STEEL, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
-        GOLDEN_SHIELDBLADE = registerItem("golden_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_GOLD, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
-        SILVER_SHIELDBLADE = registerItem("silver_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_SILVER, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
-        DIAMOND_SHIELDBLADE = registerItem("diamond_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_DIAMOND, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
-        NETHERITE_SHIELDBLADE = registerItem("netherite_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_NETHERITE, 2, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
+        IRON_SHIELDBLADE = registerItem("iron_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_IRON, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
+        STEEL_SHIELDBLADE = registerItem("steel_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_STEEL, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
+        GOLDEN_SHIELDBLADE = registerItem("golden_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_GOLD, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
+        SILVER_SHIELDBLADE = registerItem("silver_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_SILVER, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
+        DIAMOND_SHIELDBLADE = registerItem("diamond_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_DIAMOND, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT)));
+        NETHERITE_SHIELDBLADE = registerItem("netherite_shieldblade", new ShieldbladeItem(ModToolMaterials.REINFORCED_NETHERITE, 5, -3.0F, new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
         // Reinforced
         REINFORCED_IRON_SWORD = registerItem("reinforced_iron_sword", new SwordItem(ModToolMaterials.REINFORCED_IRON, 3, -2.4F, new FabricItemSettings().group(ItemGroup.COMBAT)));
@@ -355,6 +356,7 @@ public class ModItems {
         DRIED_BAMBOO_DOOR = registerBlockItem("dried_bamboo_door",ModBlocks.DRIED_BAMBOO_DOOR,ItemGroup.REDSTONE);
         DRIED_BAMBOO_TRAPDOOR = registerBlockItem("dried_bamboo_trapdoor",ModBlocks.DRIED_BAMBOO_TRAPDOOR,ItemGroup.REDSTONE);
         PUNJI_STICKS = registerBlockItem("punji_sticks",ModBlocks.PUNJI_STICKS,ItemGroup.DECORATIONS);
+        GRASS_CARPET = registerBlockItem("grass_carpet",ModBlocks.GRASS_CARPET,ItemGroup.DECORATIONS);
 
         // Metals
         SILVER_BLOCK = registerBlockItem("silver_block",ModBlocks.SILVER_BLOCK,ItemGroup.BUILDING_BLOCKS);
